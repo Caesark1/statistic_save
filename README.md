@@ -12,3 +12,7 @@ With some troubles `python manage.py test` command is not working. This command 
 To run tests you should it manually. 
 1. Test api test run `python manage.py test apps.main.tests.test_api`
 2. To test serializers run `python manage.py test apps.main.tests.test_serializer`
+
+### About doc
+To see and test all apis. There is already swagger. 
+After running server you can visit `localhost:port/swagger/` to test and see all apis in this project and how to use them
